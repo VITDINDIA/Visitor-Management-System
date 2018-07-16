@@ -34,7 +34,7 @@ $session->Unset_Session();
                        
                     <div class="col-md-12">
                             <div class="card">
-                                <div class="card-header" data-background-color="red">
+                                <div class="card-header" data-background-color="orange">
                                     <h4 class="title">Login</h4>
                                     
                                 </div>
@@ -53,7 +53,7 @@ $session->Unset_Session();
                                                     <input type="password" class="form-control"  tabindex="6" name="password" required="" >
                                                 </div>
                                             </div>
-                                        
+                                        <button type="submit" align="right" name="loginsubmit"  class="btn btn-warning" class="btn btn-primary pull-right" tabindex="7" >Login</button>
                                         <button type="submit" name="loginsubmit" class="btn btn-primary pull-right"  tabindex="7">Login</button>
                                         <div class="clearfix"></div>
                                     </form>
@@ -90,7 +90,7 @@ $session->Unset_Session();
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <a href="#">Vidya Knowledge Park</a>
+                        <a href="https://www.google.co.in/search?q=Vidya+knowledge+park+meerut&rlz=1C1DFOC_enIN787IN787&oq=Vidya+knowledge+park+meerut&aqs=chrome..69i57.10274j0j7&sourceid=chrome&ie=UTF-8">Vidya Knowledge Park</a>
                     </p>
                 </div>
             </footer>

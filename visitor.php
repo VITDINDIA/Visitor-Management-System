@@ -35,7 +35,7 @@ $dtime = new DateTime();
                     <div class="row">
                         <div class="col-md-12 col-xs-12 col-sm-12">
                             <div class="card">
-                                <div class="card-header" data-background-color="red">
+                                <div class="card-header" data-background-color="orange">
                                     <h4 class="title">Generate Gate Pass</h4>
                                 </div>
                                 <?php
@@ -103,7 +103,7 @@ $dtime = new DateTime();
                                                 </div>
                         				    </div>
                                        
-                                        <button type="submit" name="submit" tabindex="6" class="btn btn-primary pull-right">Save & Next</button>
+                                        <button type="submit" name="submit" tabindex="6" class="btn btn-warning">Save & Next</button>
                                         <div class="clearfix"></div>
                                     </form>
                                     
@@ -117,7 +117,7 @@ $dtime = new DateTime();
              <div class="row">
                         <div class="col-md-12 col-xs-12 col-sm-12">
                             <div class="card"> 
-                            <div class="card-header" data-background-color="red">
+                            <div class="card-header" data-background-color="orange">
                                     <h4 class="title">In-Visitors List</h4>
                                 </div>
                                 <div class="card-content">

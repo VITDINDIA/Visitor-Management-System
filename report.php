@@ -35,7 +35,7 @@ echo"<script>location.href='index.php';</script>";
              <div class="row">
                         <div class="col-md-12 col-xs-12 col-sm-12">
                             <div class="card"> 
-                            <div class="card-header" data-background-color="red">
+                            <div class="card-header" data-background-color="orange">
                                     <h4 class="title">Out-Visitors List</h4>
                                 </div>
                                 <div class="card-content">

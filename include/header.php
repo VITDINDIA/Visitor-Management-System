@@ -17,14 +17,15 @@ document.getElementById(id).value=upper;
 	}	
 	
 </script>
-<div class="sidebar" data-color="purple" data-image="assets/img/sidebar-1.jpg">
+
+<div class="sidebar" data-color="orange" data-image="assets/img/sidebar-1.jpg">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
         Tip 2: you can also add an image using data-image tag
     -->
             <div class="logo">
-                <a href="#" class="simple-text">
+                <a href="index.php" class="simple-text">
                    <img src="assets\img\logo.png"  />
                 </a>
             </div>
@@ -40,7 +41,7 @@ document.getElementById(id).value=upper;
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Visitor Management System</a>
+                        <a class="navbar-brand" href="index.php">Visitor Management System</a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
