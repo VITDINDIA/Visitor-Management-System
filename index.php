@@ -76,13 +76,20 @@ $session->Unset_Session();
                                 
                                 		
                                 ?>
-                            </div>
+ <h3>Total no.  of visitors :
+ <?php
+ $Db_objects->total_visitors();
+ ?>    </h3>
+ 
+ 
+								</div>
                         </div>
                         
                     </div>
                 </div>
-            </div>
-            <footer class="footer">
+				</div>
+
+				<footer class="footer">
                 <div class="container-fluid">
                     
                     <p class="copyright pull-right">
