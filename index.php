@@ -53,8 +53,8 @@ $session->Unset_Session();
                                                     <input type="password" class="form-control"  tabindex="6" name="password" required="" >
                                                 </div>
                                             </div>
-                                        <button type="submit" align="right" name="loginsubmit"  class="btn btn-warning" class="btn btn-primary pull-right" tabindex="7" >Login</button>
-                                        <button type="submit" name="loginsubmit" class="btn btn-primary pull-right"  tabindex="7">Login</button>
+                        
+                                        <button type="submit" name="loginsubmit" class="btn btn-warning"  tabindex="7">Login</button>
                                         <div class="clearfix"></div>
                                     </form>
                                 </div>
