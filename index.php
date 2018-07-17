@@ -54,7 +54,7 @@ $session->Unset_Session();
                                                 </div>
                                             </div>
                         
-                                        <button type="submit" name="loginsubmit" class="btn btn-warning"  tabindex="7">Login</button>
+                                        <button type="submit" name="loginsubmit" class="btn btn-warning  pull-right"  tabindex="7">Login</button>
                                         <div class="clearfix"></div>
                                     </form>
                                 </div>
@@ -76,10 +76,32 @@ $session->Unset_Session();
                                 
                                 		
                                 ?>
- <h3>Total no.  of visitors :
- <?php
- $Db_objects->total_visitors();
- ?>    </h3>
+  <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                       
+                    <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header" data-background-color="orange">
+                                    <h4 class="title">Total no. of visitors</h4>
+                                    
+                                </div>
+								
+								<?php
+
+       
+       $servername="localhost";
+	   $username="root";
+	   $dbname="vms";
+	   $con =mysqli_connect($servername,$username,$password,$dbname);
+	   $sql="SELECT count(cnt) AS total from registration";
+		  
+		  $result = mysqli_query($con,$sql);
+		  $values = mysqli_fetch_assoc($result);
+		  $num_rows =$values['total'];
+		  echo "<h3> $num_rows</h3>";
+		         
+?>
  
  
 								</div>

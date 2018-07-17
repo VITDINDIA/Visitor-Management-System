@@ -103,7 +103,7 @@ $dtime = new DateTime();
                                                 </div>
                         				    </div>
                                        
-                                        <button type="submit" name="submit" tabindex="6" class="btn btn-warning">Save & Next</button>
+                                        <button type="submit" name="submit" tabindex="6" class="btn btn-warning  pull-right">Save & Next</button>
                                         <div class="clearfix"></div>
                                     </form>
                                     

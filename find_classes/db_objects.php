@@ -88,24 +88,7 @@ $i++;
      
 }
 
-public function total_visitors()
-{
-global $database;
-$sql="SELECT `cnt` FROM `registration` ";
-$sqlstmt=$database->query($sql);
-$i=1;
-$tot=0;
-while($fetch=mysqli_fetch_array($sqlstmt))	 
-    {
-?>               
-        <?php   $tot=$tot+1;  ?>                       
-<?php 
-$i++;    
 
-    } 
-	print $tot;  
-     
-}
 
 protected static function find_query_by_id($sql)
 		{
